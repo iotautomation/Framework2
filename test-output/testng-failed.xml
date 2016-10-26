@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testngFiles2.Annot2">
+        <methods>
+          <include name="deinstallsoftware"/>
+          <include name="installsoftware"/>
+        </methods>
+      </class> <!-- testngFiles2.Annot2 -->
+      <class name="testngFiles2.Annotations">
+        <methods>
+          <include name="UseridGeneration"/>
+          <include name="Reportadding"/>
+          <include name="Cookies"/>
+          <include name="Cookiesclose"/>
+        </methods>
+      </class> <!-- testngFiles2.Annotations -->
+      <class name="packTwo.Annot2">
+        <methods>
+          <include name="installsoftware"/>
+          <include name="deinstallsoftware"/>
+        </methods>
+      </class> <!-- packTwo.Annot2 -->
+      <class name="testngFiles.Annotations">
+        <methods>
+          <include name="Reportadding"/>
+          <include name="Cookies"/>
+          <include name="FlightBooking"/>
+          <include name="Cookiesclose"/>
+          <include name="UseridGeneration"/>
+        </methods>
+      </class> <!-- testngFiles.Annotations -->
+      <class name="testngFiles.Annot2">
+        <methods>
+          <include name="installsoftware"/>
+          <include name="deinstallsoftware"/>
+        </methods>
+      </class> <!-- testngFiles.Annot2 -->
+      <class name="packTwo.Annotations">
+        <methods>
+          <include name="Reportadding"/>
+          <include name="UseridGeneration"/>
+          <include name="Cookies"/>
+          <include name="Cookiesclose"/>
+        </methods>
+      </class> <!-- packTwo.Annotations -->
+      <class name="datddriven.Annotations">
+        <methods>
+          <include name="Reportadding"/>
+          <include name="UseridGeneration"/>
+          <include name="Cookiesclose"/>
+          <include name="Cookies"/>
+        </methods>
+      </class> <!-- datddriven.Annotations -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
